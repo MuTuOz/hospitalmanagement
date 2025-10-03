@@ -1,0 +1,59 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1" date="1759521159608" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 3.10.2025 22:52 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/User.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/DatabaseConnection.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/DatabaseConnection.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/DatabaseConnection.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/ManagerDashboardController.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/ManagerDashboardController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/ManagerDashboardController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/PrimaryController.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/PrimaryController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/PrimaryController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/DoctorDashboardController.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/DoctorDashboardController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/DoctorDashboardController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/SecondaryController.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/SecondaryController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/SecondaryController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/App.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/App.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/App.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/AdminDashboardController.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/AdminDashboardController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/AdminDashboardController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/module-info.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/module-info.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/module-info.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/LoginController.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/LoginController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/LoginController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="hospitalmanagement/target/classes/com/cs320/PatientDashboardController.class" />
+    <option name="AFTER_PATH" value="hospitalmanagement/target/classes/com/cs320/PatientDashboardController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_10_2025_22_52_[Changes]1/PatientDashboardController.class" />
+  </binary>
+</changelist>
