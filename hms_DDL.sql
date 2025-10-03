@@ -1,5 +1,6 @@
 -- HOSPITAL MANAGEMENT SYSTEM - DDL 
-USE hospital_management_system;
+USE hospital_management;
+SET FOREIGN_KEY_CHECKS = 0;
 
 -- Role Tablosu
 CREATE TABLE Role (
@@ -160,3 +161,5 @@ CREATE TABLE Review (
     INDEX idx_doctor (doctor_id),
     INDEX idx_rating (rating)
 );
+
+SET FOREIGN_KEY_CHECKS = 1;

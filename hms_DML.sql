@@ -1,5 +1,5 @@
 -- HOSPITAL MANAGEMENT SYSTEM - DML (Data Manipulation Language)
-USE hospital_management_system;
+USE hospital_management;
 
 -- Role Tablosu - Roller
 INSERT INTO Role (name, description) VALUES
