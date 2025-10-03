@@ -76,19 +76,33 @@ public class LoginController {
         alert.showAndWait();
     }
 
+
     private User authenticateUser(String username, String password) {
+        System.out.println("Login denemesi - Email: " + username); // Debug için
+
         String query = "SELECT u.*, r.name as role_name FROM User u " +
                 "JOIN Role r ON u.role_id = r.role_id " +
                 "WHERE u.email = ? AND u.password = ?";
 
-        try (Connection conn = DatabaseConnection.getConnection();
-                PreparedStatement stmt = conn.prepareStatement(query)) {
+        Connection conn = null;
+        try {
+            conn = DatabaseConnection.getConnection();
 
+            if (conn == null) {
+                System.err.println("Connection null döndü!");
+                showError("Veritabanına bağlanılamadı. Lütfen bağlantı ayarlarını kontrol edin.");
+                return null;
+            }
+
+            PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1, username);
-            stmt.setString(2, password); // Gerçek projede hash kullanılmalı
+            stmt.setString(2, password);
 
+            System.out.println("Sorgu çalıştırılıyor..."); // Debug için
             ResultSet rs = stmt.executeQuery();
+
             if (rs.next()) {
+                System.out.println("Kullanıcı bulundu: " + rs.getString("name")); // Debug için
                 return new User(
                         rs.getInt("user_id"),
                         rs.getString("name"),
@@ -98,10 +112,17 @@ public class LoginController {
                         rs.getString("address"),
                         rs.getInt("role_id"),
                         rs.getString("role_name"));
+            } else {
+                System.out.println("Kullanıcı bulunamadı."); // Debug için
             }
+
+            rs.close();
+            stmt.close();
+
         } catch (SQLException e) {
+            System.err.println("SQL Hatası: " + e.getMessage());
             e.printStackTrace();
-            showError("Veritabanı bağlantı hatası: " + e.getMessage());
+            showError("Veritabanı hatası: " + e.getMessage());
         }
         return null;
     }
