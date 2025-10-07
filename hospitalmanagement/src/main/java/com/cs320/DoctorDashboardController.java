@@ -15,7 +15,9 @@ public class DoctorDashboardController {
 
     @FXML
     private void handleLogout() {
+        
         try {
+            System.out.println("Doktor çıkış yaptı.");
             App.setRoot("login");
         } catch (Exception e) {
             e.printStackTrace();
